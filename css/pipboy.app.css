@@ -48,13 +48,32 @@ body::after {
 
 ul > li > a, ul > li.nav-item.active > a.nav-link {
     color: #58fb65 !important;
-} 
+}
+
+.nav-item.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background: #272b23;
+    top: 20px;
+    left: 5px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-top: 2px solid;
+}
 
 .navbar-light .navbar-nav > li.nav-item > .nav-link,
 .navbar-light .navbar-nav > li.nav-item.active > .nav-link {
     text-align: center;
     width: 50%;
     margin: auto;
+    font-size: 32px;
+    line-height: 22px;
+    padding-bottom: 0px;
+    z-index: 50;
+    position: relative;
+    background: #272b23;
 }
 
 .navbar-nav {
