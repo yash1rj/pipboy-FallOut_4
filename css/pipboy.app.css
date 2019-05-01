@@ -57,16 +57,17 @@ ul > li > a, ul > li.nav-item.active > a.nav-link {
     height: 20px;
     background: #272b23;
     top: 20px;
-    left: 5px;
+    /* left: 5px; */
     border-left: 2px solid;
     border-right: 2px solid;
     border-top: 2px solid;
+    left: 0;
 }
 
 .navbar-light .navbar-nav > li.nav-item > .nav-link,
 .navbar-light .navbar-nav > li.nav-item.active > .nav-link {
     text-align: center;
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
     font-size: 32px;
     line-height: 22px;
@@ -123,4 +124,21 @@ ul > li > a, ul > li.nav-item.active > a.nav-link {
 
 .nb-footer::after {
     right: 0px;
+}
+
+.nav.nav-tabs {
+    margin: 20px;
+    border-bottom: none;
+}
+
+.nav.nav-tabs > .nav-item > .nav-link:hover {
+    border: 1px solid transparent;
+}
+
+.navbar.navbar-light .navbar-nav {
+    margin: 0 200px;
+}
+
+.navbar.navbar-light .navbar-nav > li {
+    padding: 0px 20px;
 }
