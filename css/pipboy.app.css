@@ -98,13 +98,24 @@ ul > li > a, ul > li.nav-item.active > a.nav-link {
 
 .pip-footer {
     position: fixed;
-    bottom: 10px;
+    bottom: 2px;
     width: calc(100% - 20px);
     margin: 10px;
 }
 
 .nb-footer {
     border-bottom: 2px solid;
+    margin: 0px 10px;
+    border: none;
+}
+
+.nb-footer .col-3, .nb-footer .col-6 {
+    background: rgba(16, 255, 0, 0.15);
+}
+
+.nb-footer .col-6 {
+    margin: 0px 5px;
+    flex: 0 0 48%;
 }
 
 .nb-footer::before, .nb-footer::after {
@@ -115,7 +126,7 @@ ul > li > a, ul > li.nav-item.active > a.nav-link {
     display: block;
     z-index: 2000;
     background: #58fb65;
-    bottom: -8px;
+    bottom: -10px;
 }
 
 .nb-footer::before {
@@ -135,10 +146,41 @@ ul > li > a, ul > li.nav-item.active > a.nav-link {
     border: 1px solid transparent;
 }
 
+.nav.nav-tabs > li > a {
+    font-size: 26px !important;
+    background: transparent !important;
+    border: 1px solid transparent !important;
+    padding: 5px 10px;
+}
+
+.nav.nav-tabs > li:nth-child(2) > a {
+    opacity: 0.5;
+}
+
+.nav.nav-tabs > li:nth-child(3) > a {
+    opacity: 0.2;
+}
+
 .navbar.navbar-light .navbar-nav {
     margin: 0 200px;
 }
 
 .navbar.navbar-light .navbar-nav > li {
     padding: 0px 20px;
+}
+
+.level-progress {
+    width: 100%;
+    height: 10px;
+    border: 2px solid;
+    margin-bottom: 3px;
+    display: inline-block;
+    width: 70%;
+}
+
+.level-progress-indicator {
+    height: 6px;
+    background: #58fb65;
+    position: relative;
+    width: 70%;
 }
