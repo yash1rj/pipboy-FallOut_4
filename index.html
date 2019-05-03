@@ -36,32 +36,40 @@
             </div>
         </nav>
 
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a href="#status" class="nav-link" data-toggle="tab" role="tab" aria-controls="status" aria-selected="true">
-                    STATUS
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#special" class="nav-link" data-toggle="tab" role="tab" aria-controls="special" aria-selected="true">
-                    SPECIAL
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#perks" class="nav-link" data-toggle="tab" role="tab" aria-controls="perks" aria-selected="true">
-                    PERKS
-                </a>
-            </li>
-        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
 
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="status" role="tabpanel" aria-labelledby="home-tab">
-                <div>
-                    <img class="center-image" src="./vaultBoy.png" />
+                
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a href="#status" class="nav-link" data-toggle="tab" role="tab" aria-controls="status" aria-selected="true">
+                                STATUS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#special" class="nav-link" data-toggle="tab" role="tab" aria-controls="special" aria-selected="true">
+                                SPECIAL
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#perks" class="nav-link" data-toggle="tab" role="tab" aria-controls="perks" aria-selected="true">
+                                PERKS
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="status" role="tabpanel" aria-labelledby="home-tab">
+                            <div>
+                                <img class="center-image" src="./vaultBoy.png" />
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="special" role="tabpanel" aria-labelledby="profile-tab">SPECIAL</div>
+                        <div class="tab-pane fade" id="perks" role="tabpanel" aria-labelledby="contact-tab">PERKS</div>
+                    </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="special" role="tabpanel" aria-labelledby="profile-tab">SPECIAL</div>
-            <div class="tab-pane fade" id="perks" role="tabpanel" aria-labelledby="contact-tab">PERKS</div>
         </div>
 
         <nav class="pip-footer nb-footer">
@@ -71,7 +79,9 @@
                 </div>
                 <div class="col-6 col-sm-6 col-lg-6 col-md-6 col-xl-6">
                     LEVEL 1
-                    <div class="level-progress"></div>
+                    <div class="level-progress">
+                        <div class="level-progress-indicator" width="70%"></div>
+                    </div>
                 </div>
                 <div class="col-3 col-sm-3 col-lg-3 col-md-3 col-xl-3">
                     AP 50/50
