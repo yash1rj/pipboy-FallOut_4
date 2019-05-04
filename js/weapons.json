@@ -1,0 +1,47 @@
+{
+    "pistol_44": {
+        "name": "pistol_44",
+        "damage": 48,
+        "fire_rate": 6,
+        "range": 119,
+        "accuracy": 62,
+        "weight": 4.2,
+        "value": 19
+    },
+    "assault_rifle": {
+        "name": "assault_rifle",
+        "damage": 30,
+        "fire_rate": 40,
+        "range": 119,
+        "accuracy": 72,
+        "weight": 13.1,
+        "value": 11
+    },
+    "smg": {
+        "name": "smg",
+        "damage": 10,
+        "fire_rate": 127,
+        "range": 107,
+        "accuracy": 63,
+        "weight": 13.8,
+        "value": 8.8
+    },
+    "shotgun": {
+        "name": "shotgun",
+        "damage": 50,
+        "fire_rate": 20,
+        "range": 47,
+        "accuracy": 23,
+        "weight": 11.1,
+        "value": 7.8
+    },
+    "flamer": {
+        "name": "flamer",
+        "damage": 12,
+        "fire_rate": 90,
+        "range": 47,
+        "accuracy": 53,
+        "weight": 16.1,
+        "value": 8.51
+    }
+}
