@@ -246,10 +246,95 @@ ul > li > a, ul > li.nav-item.active > a.nav-link {
     width: 90%;
 }
 
-.stat-numbers .col-1, .stat-numbers .col-2,  {
+.stat-numbers {
+    margin-top: -10px;
+}
+
+.stat-numbers .col-1, .stat-numbers .col-2  {
     background: rgba(16, 255, 0, 0.15);
+    margin-right: 4px;
 }
 
 .stat-numbers .col-1.transparent, .stat-numbers .col-2.transparent {
     background: transparent;
+}
+
+.stat-numbers img {
+    filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
+}
+
+.stat-numbers img.sm-img {
+    width: 15px;
+    margin-left: -5px;
+}
+
+.helmet {
+    padding-top: 3px;
+}
+
+.spacer-number {
+    width: 57px;
+}
+
+#status.tab-pane.full {
+    width: 100%;
+    max-width: 100%;
+}
+
+.item-list {
+    float: left;
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+.item-list li a {
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: #58fb65;
+    padding-left: 25px;
+    text-decoration: none !important;
+}
+
+.item-list li a:hover {
+    text-decoration: none;
+    background: #58fb65;
+    color: #272b23 !important;
+}
+
+.item-list li a.active::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #58fb65;
+    left: 20px;
+    margin-top: 6px;
+}
+
+.item-list li a.active:hover::before {
+    background: #272b23;
+}
+
+.tab-pane.full {
+    height: calc(100vh - 180px);
+}
+
+.item-stats {
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    width: 200px;
+}
+
+.pull-right {
+    right: -60px;
+}
+
+.item-stats .row .col-12 {
+    background: rgba(16, 255, 0, 0.15);
+    margin-bottom: 2px;
 }
